@@ -1,0 +1,22 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="recording-studio"
+version="2.1.0"
+description="Grabaciones a presentaciones con frames anotados y evaluación"
+requires-python=">=3.11"
+dependencies=["pydantic>=2.10,<3","python-pptx>=1.0,<2","python-docx>=1.1,<2","Pillow>=11,<13","PyJWT[crypto]>=2.10,<3"]
+
+[project.optional-dependencies]
+functions=["azure-functions>=1.21,<2","azure-functions-durable>=1.2.10,<2","azure-storage-blob>=12.24,<13"]
+
+[project.scripts]
+recording-studio="recording_studio.__main__:main"
+
+[tool.setuptools.packages.find]
+include=["recording_studio*"]
+
+[tool.setuptools.package-data]
+recording_studio=["application/fixtures/*.json","application/fixtures/frames/*.png"]

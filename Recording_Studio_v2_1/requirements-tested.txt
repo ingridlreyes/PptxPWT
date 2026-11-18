@@ -1,0 +1,10 @@
+# Dependencias directas verificadas. Runtime Python 3.12.
+pydantic==2.14.1
+python-pptx==1.0.2
+python-docx==1.2.0
+Pillow==12.3.0
+PyJWT[crypto]==2.15.1
+cryptography==50.0.2
+azure-functions==1.26.0
+azure-functions-durable==1.7.0
+azure-storage-blob==12.31.1

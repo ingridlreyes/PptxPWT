@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "functionTimeout": "02:00:00",
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.*, 5.0.0)"
+  },
+  "extensions": {
+    "http": {"routePrefix": "api", "maxOutstandingRequests": 30, "maxConcurrentRequests": 10},
+    "durableTask": {
+      "hubName": "RecordingStudioV2",
+      "maxConcurrentActivityFunctions": 1,
+      "maxConcurrentOrchestratorFunctions": 5,
+      "tracing": {"traceInputsAndOutputs": false, "traceReplayEvents": false}
+    }
+  },
+  "logging": {
+    "logLevel": {"default": "Warning", "Host.Results": "Information"},
+    "applicationInsights": {"samplingSettings": {"isEnabled": true}}
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "video_url": "https://TU_TENANT.sharepoint.com/:v:/s/Training/REEMPLAZAR_POR_EL_VINCULO_REAL?e=REEMPLAZAR",
+  "brief": "Crear capacitación agrupando varios pasos por pantalla y conservando controles y excepciones.",
+  "theme": {"client": "Cliente", "primary": "#142D4E", "accent": "#007F78", "font": "Arial"},
+  "include_word": true
+}

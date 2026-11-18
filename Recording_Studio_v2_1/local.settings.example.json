@@ -1,0 +1,37 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FUNCTIONS_WORKER_PROCESS_COUNT": "1",
+    "PYTHON_THREADPOOL_THREAD_COUNT": "4",
+    "RS_MODE": "azure",
+    "RS_MODEL_BASE_URL": "https://RECURSO.openai.azure.com/openai/v1/",
+    "RS_MODEL_API_KEY": "CONFIGURAR_CLAVE",
+    "RS_WRITER_MODEL": "DEPLOYMENT_MULTIMODAL",
+    "RS_TRANSCRIBER_MODEL": "DEPLOYMENT_AUDIO",
+    "RS_JWT_ISSUER": "https://auth.example.com/",
+    "RS_JWT_AUDIENCE": "recording-studio-api",
+    "RS_JWT_PUBLIC_KEY_FILE": ".secrets/jwt-public.pem",
+    "RS_JOB_ENCRYPTION_KEY": "GENERAR_32_BYTES_BASE64",
+    "RS_VIDEO_ALLOWED_HOSTS": "videos.example.com,descargas.example.com",
+    "RS_VIDEO_TOKEN_HOSTS": "videos.example.com",
+    "RS_VIDEO_MAX_BYTES": "4294967296",
+    "RS_VIDEO_DOWNLOAD_TIMEOUT": "1800",
+    "RS_MAX_RESULT_BYTES": "104857600",
+    "RS_JOBS_CONTAINER": "recording-studio-jobs",
+    "RS_VIDEO_BATCH_SECONDS": "900",
+    "RS_VIDEO_OVERLAP_SECONDS": "15",
+    "RS_VIDEO_WORKERS": "3",
+    "RS_VIDEO_FRAMES_PER_BATCH": "24",
+    "RS_VIDEO_MAX_SLIDES": "30",
+    "RS_MAX_MODEL_CONCURRENCY": "3",
+    "RS_FFMPEG_BIN": "ffmpeg",
+    "RS_FFPROBE_BIN": "ffprobe",
+    "RS_SHAREPOINT_PUBLIC_HOSTS": ""
+  },
+  "Host": {
+    "CORS": "",
+    "CORSCredentials": false
+  }
+}
