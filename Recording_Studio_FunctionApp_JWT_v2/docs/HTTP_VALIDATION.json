@@ -1,0 +1,12 @@
+{
+  "unauthorized": 401,
+  "teams_link": 400,
+  "accepted": 202,
+  "other_user": 404,
+  "terminal_status": "Failed",
+  "error_code": "video_download_failed",
+  "result_owner": 200,
+  "result_other_user": 404,
+  "result_without_jwt": 401,
+  "result_bytes_match": true
+}

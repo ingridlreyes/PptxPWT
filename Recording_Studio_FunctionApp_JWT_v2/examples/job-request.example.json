@@ -1,0 +1,6 @@
+{
+  "video_url": "https://videos.example.com/recordings/capacitacion.mp4",
+  "brief": "Crear material de capacitación del proceso, agrupando varios pasos por pantalla y conservando controles y excepciones.",
+  "theme": {"client": "Cliente", "primary": "#142D4E", "accent": "#007F78", "font": "Arial"},
+  "include_word": true
+}
